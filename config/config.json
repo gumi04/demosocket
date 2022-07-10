@@ -1,0 +1,25 @@
+{
+  "development": {
+    "username": null,
+    "password": null,
+    "database": "demo",
+    "host": "127.0.0.1",
+    "dialect": "sqlite",
+    "storage": "./demo.sqlite3"
+
+  },
+  "test": {
+    "username": "root",
+    "password": null,
+    "database": "database_test",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  },
+  "production": {
+    "username": "lvseagdhpkhaiw",
+    "password": "1c2b2a3410f97498b5e6b40ab8bd27ce19ea96d20d14e0868f9121fec3cce42b",
+    "database": "d36riis8dpcf06",
+    "host": "ec2-52-20-166-21.compute-1.amazonaws.com",
+    "dialect": "postgres"
+  }
+}
